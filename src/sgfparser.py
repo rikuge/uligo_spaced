@@ -105,7 +105,6 @@ class Node:
 
 			i += 1
 
-			print(ID)
 			key = str.join('',ID)
 
 
@@ -242,7 +241,6 @@ class Cursor:
 			if not match:
 					break
 					i = match.end() - 1
-			print(inbrackets, 'DIT IS')
 			if inbrackets:
 				if sgf[i]==']':
 					numberBackslashes = 0
@@ -313,7 +311,6 @@ class Cursor:
 				p = i
 
 			i = i + 1
-			print(i)
 
 		if inbrackets or c:
 			raise SGFError('Game tree parse error')

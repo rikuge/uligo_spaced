@@ -380,10 +380,6 @@ class Board(abstractBoard, Canvas):
             self.master.focus()
         x,y = self.getBoardCoord((event.x, event.y), self.shadedStoneVar.get())
 
-        print(event.x)
-        print(event.y)
-        print(self.shadedStoneVar.get())
-
         if (not x*y): return
 
         if abstractBoard.play(self,(x,y), self.currentColor): # would this be a legal move?
@@ -404,7 +400,6 @@ class Board(abstractBoard, Canvas):
         c1 = self.canvasSize[1]
         a = self.canvasSize[0] - self.canvasSize[1] - self.canvasSize[1]//2
         b = self.canvasSize[0] - self.canvasSize[1] + self.canvasSize[1]//2
-        print(a, b)
         return (c1*pos[0]+a+fuzzy1, c1*pos[1]+a+fuzzy2, c1*pos[0]+b+fuzzy1, c1*pos[1]+b+fuzzy2)
 
     def getBoardCoord(self, pos, sloppy=1):

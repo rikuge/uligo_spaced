@@ -191,11 +191,8 @@ class PbmRecord:
 
         try:
             f = open(os.path.join(self.path, 'easy.dat'), 'rb')
-            print(os.path.join(self.path, 'easy.dat'))
             s = f.readline();
-            print(s)
             if s == 'uligo03\n':            # this is a .dat file from uligo 0.1 or 0.2
-                print('ok')
                 f.seek(0)
                 self.noOfPbms, self.pbmsAsked, self.noRight, self.noWrong, self.list = pickle.load(f)
                 f.close()
@@ -203,7 +200,6 @@ class PbmRecord:
                 self.current = -1
                 self.handleCurrent = -1
             else:
-                print('ok2')
                 self.noOfPbms, self.pbmsAsked, self.noRight, self.noWrong, \
                                self.current, self.handleCurrent, help, self.list = pickle.load(f)
                 self.modeVar.set(help)
@@ -289,7 +285,6 @@ class PbmRecord:
         """ Write list to disk. """
 
         if not os.path.exists(self.path): os.makedirs(self.path)
-        print('test')
         f = open(os.path.join(self.path,self.filename), 'wb')
 
         help = self.modeVar.get()
