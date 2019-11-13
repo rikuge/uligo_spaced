@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uliGO 0.3\n"
+"POT-Creation-Date: 2012-04-14 20:54+CEST\n"
+"PO-Revision-Date: 2009-03-17 20:02+0100\n"
+"Last-Translator: Sergey Astanin <s.astanin@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: uligo.py:150
+msgid "solved!"
+msgstr "Решено самостоятельно!"
+
+#: uligo.py:152
+msgid "solved"
+msgstr "Решено"
+
+#: uligo.py:154
+msgid "wrong!"
+msgstr "Неправильно!"
+
+#: uligo.py:156
+msgid "end"
+msgstr "Конец"
+
+#: uligo.py:256
+msgid "Number of problems in database: "
+msgstr "Количество задач в коллекции: "
+
+#: uligo.py:257
+msgid "Number of questions asked     : "
+msgstr "Количество заданных задач: "
+
+#: uligo.py:258
+msgid "Number of right answers       : "
+msgstr "Количество правильных ответов: "
+
+#: uligo.py:260
+msgid "Number of wrong answers       : "
+msgstr "Количество неправильных ответов: "
+
+#: uligo.py:294
+msgid "Could not write .dat file"
+msgstr "Невозможно записать файл .dat."
+
+#: uligo.py:294 uligo.py:1421
+msgid "IO Error"
+msgstr "Ошибка ввода-вывода"
+
+#: uligo.py:322
+msgid "Order of the problems"
+msgstr "Порядок задач"
+
+#: uligo.py:331
+msgid "Random order"
+msgstr "Случайный порядок"
+
+#: uligo.py:333
+msgid "Sequential order (keep track of correct/wrong answers)"
+msgstr ""
+"Последовательное решение (вести учёт правильных и неправильных ответов)"
+
+#: uligo.py:336
+msgid "Sequential order (don't record results); start with problem no. "
+msgstr ""
+"Последовательное решение (не вести учёт результатов); начать с задачи №"
+
+#: uligo.py:342
+msgid "Use this mode as default"
+msgstr "Использовать этот режим по умолчанию"
+
+#: uligo.py:344 uligo.py:1459 uligo.py:1508
+msgid "OK"
+msgstr "OK"
+
+#: uligo.py:346
+msgid "Cancel"
+msgstr "Отмена"
+
+#: uligo.py:389
+msgid "Database: "
+msgstr "Коллекция задач: "
+
+#: uligo.py:535 uligo.py:558 uligo.py:575 uligo.py:612 uligo.py:639
+#: uligo.py:670 uligo.py:745 uligo.py:795 uligo.py:935 uligo.py:952
+#: uligo.py:992 uligo.py:1009 uligo.py:1046 uligo.py:1190 uligo.py:1279
+#: uligo.py:1292 uligo.py:1346
+msgid "Error in SGF file!"
+msgstr "Ошибка в файле SGF!"
+
+#: uligo.py:535 uligo.py:558 uligo.py:575 uligo.py:612 uligo.py:639
+#: uligo.py:670 uligo.py:745 uligo.py:795 uligo.py:1190 uligo.py:1292
+#: uligo.py:1346
+msgid "SGF Error"
+msgstr "Ошибка в SGF"
+
+#: uligo.py:848 uligo.py:1250
+msgid "Cannot open this file\n"
+msgstr "Не могу открыть этот файл\n"
+
+#: uligo.py:848 uligo.py:1250
+msgid "Open file"
+msgstr "Открыть файл"
+
+#: uligo.py:918
+msgid "Could not write uligo.def"
+msgstr "Не могу записать файл uligo.def"
+
+#: uligo.py:918
+msgid "IOError"
+msgstr "Ошибка ввода-вывода"
+
+#: uligo.py:935 uligo.py:952 uligo.py:992 uligo.py:1009 uligo.py:1046
+#: uligo.py:1279
+msgid "Parsing Error"
+msgstr "Ошибка разбора"
+
+#: uligo.py:969
+msgid "Black to play"
+msgstr "Ход чёрных"
+
+#: uligo.py:972
+msgid "White to play"
+msgstr "Ход белых"
+
+#: uligo.py:1107
+msgid "Could not delete .dat file."
+msgstr "Не могу удалить файл .dat."
+
+#: uligo.py:1107
+msgid "I/O Error"
+msgstr "Ошибка ввода-вывода"
+
+#: uligo.py:1364 uligo.py:1382
+msgid "END"
+msgstr "Конец"
+
+#: uligo.py:1421
+msgid "Save options"
+msgstr "Сохранить настройку"
+
+#: uligo.py:1447
+msgid "About uliGo ..."
+msgstr "О программе..."
+
+#: uligo.py:1555
+msgid "Guess "
+msgstr "Догадка"
+
+#: uligo.py:1574
+msgid "File"
+msgstr "Файл"
+
+#: uligo.py:1575
+msgid "Open problem collection ..."
+msgstr "Открыть коллекцию задач..."
+
+#: uligo.py:1576
+msgid "Replay game"
+msgstr "Переиграть игру"
+
+#: uligo.py:1578
+msgid "Clear Statistics"
+msgstr "Сбросить статистику"
+
+#: uligo.py:1579 uligo.py:1769
+msgid "Statistics"
+msgstr "Статистика"
+
+#: uligo.py:1581
+msgid "Exit"
+msgstr "Выход"
+
+#: uligo.py:1583
+msgid "Options"
+msgstr "Настройка"
+
+#: uligo.py:1586
+msgid "Fuzzy stone placement"
+msgstr "Естественное размещение камней"
+
+#: uligo.py:1591
+msgid "Shaded stone mouse pointer"
+msgstr "Курсор в виде камня"
+
+#: uligo.py:1596
+msgid "Allow color switch"
+msgstr "Разрешить изменение цвета"
+
+#: uligo.py:1601
+msgid "Allow mirroring/rotating"
+msgstr "Разрешить отражение и поворот"
+
+#: uligo.py:1607
+msgid "Show solution mode"
+msgstr "Показывать решение как"
+
+#: uligo.py:1608
+msgid "animate"
+msgstr "анимацию"
+
+#: uligo.py:1609
+msgid "navigate"
+msgstr "варианты ходов"
+
+#: uligo.py:1614
+msgid "Replay speed"
+msgstr "Скорость повтора"
+
+#: uligo.py:1615
+msgid "very fast"
+msgstr "очень быстро"
+
+#: uligo.py:1616
+msgid "fast"
+msgstr "быстро"
+
+#: uligo.py:1617
+msgid "medium"
+msgstr "средне"
+
+#: uligo.py:1618
+msgid "slow"
+msgstr "медленно"
+
+#: uligo.py:1620
+msgid "Change clock settings"
+msgstr "Изменить настройки таймера"
+
+#: uligo.py:1624
+msgid "Wrong variations"
+msgstr "Неправильные варианты"
+
+#: uligo.py:1627
+msgid "Show WRONG at the end of variation"
+msgstr "Сообщить об ошибке в конце варианта"
+
+#: uligo.py:1629
+msgid "Show WRONG when entering variation"
+msgstr "Сообщить об ошибке в начале варианта"
+
+#: uligo.py:1631
+msgid "Do not descend into wrong variations"
+msgstr "Не углубляться в неправильные варианты"
+
+#: uligo.py:1634
+msgid "Random/sequential order mode"
+msgstr "Порядок задач в коллекции"
+
+#: uligo.py:1639
+msgid "Use 3D stones"
+msgstr "Использовать трёхмерные камни"
+
+#: uligo.py:1643
+msgid "Help"
+msgstr "Помощь"
+
+#: uligo.py:1645
+msgid "About ..."
+msgstr "О программе..."
+
+#: uligo.py:1646
+msgid "Documentation"
+msgstr "Руководство"
+
+#: uligo.py:1647
+msgid "License"
+msgstr "Лицензия"
+
+#: uligo.py:1654
+msgid "Back"
+msgstr "Пред."
+
+#: uligo.py:1656
+msgid "Re"
+msgstr "Заново"
+
+#: uligo.py:1658
+msgid "Next"
+msgstr "След."
+
+#: uligo.py:1672
+msgid "Show solution"
+msgstr "Показать решение"
+
+#: uligo.py:1677
+msgid "Hint"
+msgstr "Подсказка"
+
+#: uligo.py:1682
+msgid "Undo"
+msgstr "Отмена хода"
+
+#: uligo.py:1687
+msgid "Try variation"
+msgstr "Попробовать вариант"
+
+#: uligo.py:1863
+msgid "Error"
+msgstr "Ошибка"
+
+#: uligo.py:1863
+msgid "Error reading uligo.app"
+msgstr "Ошибка чтения файла uligo.app."
+
+#: uligo.py:1868
+msgid "uliGo"
+msgstr "улиГо"
+
+#~ msgid "Change time settings"
+#~ msgstr "Изменить настройки таймера"
+
+#~ msgid "Pick time in seconds (0=off)"
+#~ msgstr "Установите время в секундах (0 — выключить)"

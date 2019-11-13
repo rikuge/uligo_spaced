@@ -1,0 +1,8 @@
+syntax: glob
+sgf/*.dat
+uligo.def
+uligo.opt
+*.pyc
+doc/_build
+*.mo
+*.po~

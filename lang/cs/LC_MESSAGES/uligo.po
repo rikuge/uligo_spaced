@@ -1,0 +1,313 @@
+# Uligo pot file
+# Ulrich Goertz <ug@geometry.de>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: uliGo 0.4\n"
+"POT-Creation-Date: 2012-04-14 20:49+CEST\n"
+"PO-Revision-Date: 2012-04-14 20:46+CEST\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: uligo.py:150
+msgid "solved!"
+msgstr ""
+
+#: uligo.py:152
+msgid "solved"
+msgstr ""
+
+#: uligo.py:154
+msgid "wrong!"
+msgstr ""
+
+#: uligo.py:156
+msgid "end"
+msgstr ""
+
+#: uligo.py:256
+msgid "Number of problems in database: "
+msgstr ""
+
+#: uligo.py:257
+msgid "Number of questions asked     : "
+msgstr ""
+
+#: uligo.py:258
+msgid "Number of right answers       : "
+msgstr ""
+
+#: uligo.py:260
+msgid "Number of wrong answers       : "
+msgstr ""
+
+#: uligo.py:294
+msgid "Could not write .dat file"
+msgstr ""
+
+#: uligo.py:294 uligo.py:1421
+msgid "IO Error"
+msgstr ""
+
+#: uligo.py:322
+msgid "Order of the problems"
+msgstr ""
+
+#: uligo.py:331
+msgid "Random order"
+msgstr ""
+
+#: uligo.py:333
+msgid "Sequential order (keep track of correct/wrong answers)"
+msgstr ""
+
+#: uligo.py:336
+msgid "Sequential order (don't record results); start with problem no. "
+msgstr ""
+
+#: uligo.py:342
+msgid "Use this mode as default"
+msgstr ""
+
+#: uligo.py:344 uligo.py:1459 uligo.py:1508
+msgid "OK"
+msgstr ""
+
+#: uligo.py:346
+msgid "Cancel"
+msgstr ""
+
+#: uligo.py:389
+msgid "Database: "
+msgstr ""
+
+#: uligo.py:535 uligo.py:558 uligo.py:575 uligo.py:612 uligo.py:639
+#: uligo.py:670 uligo.py:745 uligo.py:795 uligo.py:935 uligo.py:952
+#: uligo.py:992 uligo.py:1009 uligo.py:1046 uligo.py:1190 uligo.py:1279
+#: uligo.py:1292 uligo.py:1346
+msgid "Error in SGF file!"
+msgstr ""
+
+#: uligo.py:535 uligo.py:558 uligo.py:575 uligo.py:612 uligo.py:639
+#: uligo.py:670 uligo.py:745 uligo.py:795 uligo.py:1190 uligo.py:1292
+#: uligo.py:1346
+msgid "SGF Error"
+msgstr ""
+
+#: uligo.py:848 uligo.py:1250
+msgid "Cannot open this file\n"
+msgstr ""
+
+#: uligo.py:848 uligo.py:1250
+msgid "Open file"
+msgstr ""
+
+#: uligo.py:918
+msgid "Could not write uligo.def"
+msgstr ""
+
+#: uligo.py:918
+msgid "IOError"
+msgstr ""
+
+#: uligo.py:935 uligo.py:952 uligo.py:992 uligo.py:1009 uligo.py:1046
+#: uligo.py:1279
+msgid "Parsing Error"
+msgstr ""
+
+#: uligo.py:969
+msgid "Black to play"
+msgstr ""
+
+#: uligo.py:972
+msgid "White to play"
+msgstr ""
+
+#: uligo.py:1107
+msgid "Could not delete .dat file."
+msgstr ""
+
+#: uligo.py:1107
+msgid "I/O Error"
+msgstr ""
+
+#: uligo.py:1364 uligo.py:1382
+msgid "END"
+msgstr ""
+
+#: uligo.py:1421
+msgid "Save options"
+msgstr ""
+
+#: uligo.py:1447
+msgid "About uliGo ..."
+msgstr ""
+
+#: uligo.py:1555
+msgid "Guess "
+msgstr ""
+
+#: uligo.py:1574
+msgid "File"
+msgstr ""
+
+#: uligo.py:1575
+msgid "Open problem collection ..."
+msgstr ""
+
+#: uligo.py:1576
+msgid "Replay game"
+msgstr ""
+
+#: uligo.py:1578
+msgid "Clear Statistics"
+msgstr ""
+
+#: uligo.py:1579 uligo.py:1769
+msgid "Statistics"
+msgstr ""
+
+#: uligo.py:1581
+msgid "Exit"
+msgstr ""
+
+#: uligo.py:1583
+msgid "Options"
+msgstr ""
+
+#: uligo.py:1586
+msgid "Fuzzy stone placement"
+msgstr ""
+
+#: uligo.py:1591
+msgid "Shaded stone mouse pointer"
+msgstr ""
+
+#: uligo.py:1596
+msgid "Allow color switch"
+msgstr ""
+
+#: uligo.py:1601
+msgid "Allow mirroring/rotating"
+msgstr ""
+
+#: uligo.py:1607
+msgid "Show solution mode"
+msgstr ""
+
+#: uligo.py:1608
+msgid "animate"
+msgstr ""
+
+#: uligo.py:1609
+msgid "navigate"
+msgstr ""
+
+#: uligo.py:1614
+msgid "Replay speed"
+msgstr ""
+
+#: uligo.py:1615
+msgid "very fast"
+msgstr ""
+
+#: uligo.py:1616
+msgid "fast"
+msgstr ""
+
+#: uligo.py:1617
+msgid "medium"
+msgstr ""
+
+#: uligo.py:1618
+msgid "slow"
+msgstr ""
+
+#: uligo.py:1620
+msgid "Change clock settings"
+msgstr ""
+
+#: uligo.py:1624
+msgid "Wrong variations"
+msgstr ""
+
+#: uligo.py:1627
+msgid "Show WRONG at the end of variation"
+msgstr ""
+
+#: uligo.py:1629
+msgid "Show WRONG when entering variation"
+msgstr ""
+
+#: uligo.py:1631
+msgid "Do not descend into wrong variations"
+msgstr ""
+
+#: uligo.py:1634
+msgid "Random/sequential order mode"
+msgstr ""
+
+#: uligo.py:1639
+msgid "Use 3D stones"
+msgstr ""
+
+#: uligo.py:1643
+msgid "Help"
+msgstr ""
+
+#: uligo.py:1645
+msgid "About ..."
+msgstr ""
+
+#: uligo.py:1646
+msgid "Documentation"
+msgstr ""
+
+#: uligo.py:1647
+msgid "License"
+msgstr ""
+
+#: uligo.py:1654
+msgid "Back"
+msgstr ""
+
+#: uligo.py:1656
+msgid "Re"
+msgstr ""
+
+#: uligo.py:1658
+msgid "Next"
+msgstr ""
+
+#: uligo.py:1672
+msgid "Show solution"
+msgstr ""
+
+#: uligo.py:1677
+msgid "Hint"
+msgstr ""
+
+#: uligo.py:1682
+msgid "Undo"
+msgstr ""
+
+#: uligo.py:1687
+msgid "Try variation"
+msgstr ""
+
+#: uligo.py:1863
+msgid "Error"
+msgstr ""
+
+#: uligo.py:1863
+msgid "Error reading uligo.app"
+msgstr ""
+
+#: uligo.py:1868
+msgid "uliGo"
+msgstr ""
